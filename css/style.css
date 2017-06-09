@@ -11,8 +11,7 @@ h1 {
 
 .menu {
   background-image: url("../resources/img/building.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .menu a {
@@ -31,4 +30,17 @@ h3 {
 p {
   font-size: 14px;
   font-weight: normal;
+}
+
+.background h3 {
+  background-image: url("../resources/img/building.png");
+  font-size: 23px;
+  color: white;
+}
+
+.footer p, .footer a {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
 }
